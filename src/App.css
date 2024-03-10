@@ -1,9 +1,25 @@
 .App {
   display: flex;
-
+  flex-direction: column;
 }
 header {
+  display: flex;
+  position: fixed;
   width: 100vw;
   height: 15vh;
   background-color: #1E2022;
+  align-items: center;
+  justify-content: center;
+}
+.logoHeader {
+  width: 15vh;
+  height: 15vh;
+  background: url('./components/img/logoW.png') no-repeat center;
+  background-size: 15vh;
+}
+.sectionM {
+  width: 100vw;
+  height: 100vh;
+  background: url('./components/img/backgorund.png') no-repeat center;
+  background-size: 100vw;
 }
